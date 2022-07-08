@@ -1,0 +1,15 @@
+# ignored files
+*_temp*
+$TempDir$
+*.TempDir
+*.ipynb
+# cache files
+__pycache__
+*.swp
+.vscode
+# build file
+build/
+dist/
+*.spec
+*.egg-info
+

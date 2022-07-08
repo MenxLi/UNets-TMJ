@@ -1,0 +1,3 @@
+include README.md
+recursive-include labelSys/utils *.so
+recursive-include labelSys/utils *.dll

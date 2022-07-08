@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib
+opencv-python
+scikit-fmm
+scipy
+vtk

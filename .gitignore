@@ -1,0 +1,17 @@
+TMJ-ML-old
+
+*.vimrc
+*__pycache__
+*.vscode
+*.TempDir/*
+*/*.TempDir/*
+*_tmp.ipynb
+*.ipynb_checkpoints
+*/*.ipynb_checkpoints
+*.egg-info*
+build
+
+*log.txt
+Database/nnUNet_raw_data_base/*
+Database/nnUNet_preprocessed/*
+Database/RESULTS_FOLDER/*
