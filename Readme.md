@@ -2,7 +2,7 @@
 # U-Nets for TMJ segmentation
 This repository contains the code to replicate the paper entitled "Temporomandibular joint segmentation in MRI images using deep learning"
 # Prerequisite
-**Working dir should be where this file exists.**
+**Working directory should be where this file exists.**
 
 ## Package installation
 All packages under `./packages` should be installed, then install the packages specified in `./requirements.txt`:
@@ -10,12 +10,13 @@ All packages under `./packages` should be installed, then install the packages s
 pip install ./packages/*
 pip install -r requirements.txt
 ```
+In addition, PyTorch enviroment should be setup.
 
 ## Raw format
 The data in our experiment were labeled with our in-house developed software named `labelSys`. The data was saved in json format with images encoded as base-64 string. 
 Two examples of the data can be found in `./data-demo` and the tool to extract the label was provided in `./packages/labelSys`   
 
-***(Simply using demo-data is insufficient to train the model in 5-fold scheme. For testing propose you may wish to manually duplicate the demo data)***
+***(Simply using demo-data is insufficient to train the model in 5-fold scheme. For code-testing propose you need to manually duplicate the demo data)***
 
 ## Setup enviroment variables
 The configuration of the dataset path should be setup in `./setUpEnv.sh` and run:
@@ -69,7 +70,7 @@ Following are the instructions to generate the evaluation data:
 ```bash
 python -m UNetPPTMJ.generateResults -f $(for i in {0..4}; do echo "./UNetPPTMJ/.TempDir/model_f-$i"; done)
 ```
-The generated result is ensembled from the 5-folds models. The resultant file, by default, is `./UNetPPTMJ/TempDir/result-upp.npz`
+The generated result is ensembled from the 5-folds models. The resultant file, by default, is `./UNetPPTMJ/.TempDir/result-upp.npz`
 
 ### nnUNet
 We first generate 5 different results from 5 models using: 
