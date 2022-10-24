@@ -1,14 +1,3 @@
-# +==***---------------------------------------------------------***==+ #
-# |                                                                   | #
-# |  Filename: progress.py                                            | #
-# |  Copyright (C)  - All Rights Reserved                             | #
-# |  The code presented in this file is part of an unpublished paper  | #
-# |  Unauthorized copying of this file, via any medium is strictly    | #
-# |  prohibited                                                       | #
-# |  Proprietary and confidential                                     | #
-# |  Written by Mengxun Li <mengxunli@whu.edu.cn>, June 2022          | #
-# |                                                                   | #
-# +==***---------------------------------------------------------***==+ #
 # Print iterations progress
 def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 1, length = 100, fill = '█', printEnd = "\r"):
     """

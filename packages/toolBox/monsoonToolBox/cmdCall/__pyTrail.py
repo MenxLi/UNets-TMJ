@@ -1,14 +1,3 @@
-# +==***---------------------------------------------------------***==+ #
-# |                                                                   | #
-# |  Filename: __pyTrail.py                                           | #
-# |  Copyright (C)  - All Rights Reserved                             | #
-# |  The code presented in this file is part of an unpublished paper  | #
-# |  Unauthorized copying of this file, via any medium is strictly    | #
-# |  prohibited                                                       | #
-# |  Proprietary and confidential                                     | #
-# |  Written by Mengxun Li <mengxunli@whu.edu.cn>, June 2022          | #
-# |                                                                   | #
-# +==***---------------------------------------------------------***==+ #
 import os, sys, re, time, math
 from math import pi, sin, cos, sqrt, log, log2, log10, ceil, floor
 

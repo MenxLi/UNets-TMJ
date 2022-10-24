@@ -1,14 +1,3 @@
-# +==***---------------------------------------------------------***==+ #
-# |                                                                   | #
-# |  Filename: machineCheck.py                                        | #
-# |  Copyright (C)  - All Rights Reserved                             | #
-# |  The code presented in this file is part of an unpublished paper  | #
-# |  Unauthorized copying of this file, via any medium is strictly    | #
-# |  prohibited                                                       | #
-# |  Proprietary and confidential                                     | #
-# |  Written by Mengxun Li <mengxunli@whu.edu.cn>, June 2022          | #
-# |                                                                   | #
-# +==***---------------------------------------------------------***==+ #
 """
 To check the order of initial labels and assosiate them with generated npz file
 """

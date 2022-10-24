@@ -1,14 +1,3 @@
-# +==***---------------------------------------------------------***==+ #
-# |                                                                   | #
-# |  Filename: draw3d.py                                              | #
-# |  Copyright (C)  - All Rights Reserved                             | #
-# |  The code presented in this file is part of an unpublished paper  | #
-# |  Unauthorized copying of this file, via any medium is strictly    | #
-# |  prohibited                                                       | #
-# |  Proprietary and confidential                                     | #
-# |  Written by Mengxun Li <mengxunli@whu.edu.cn>, June 2022          | #
-# |                                                                   | #
-# +==***---------------------------------------------------------***==+ #
 from .mask3d import Mask3D
 from .img2d import Img2D
 from typing import List, Union, Tuple
